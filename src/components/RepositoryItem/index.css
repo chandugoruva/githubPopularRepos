@@ -1,0 +1,53 @@
+.bg-item {
+  background-color: #f8f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.avatar {
+  height: 90px;
+}
+.name {
+  color: #e73959;
+}
+.star-gold {
+  color: gold;
+  margin-right: 10px;
+}
+.icon-items {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+.forks {
+  color: #0284c7;
+  margin-right: 10px;
+}
+.issues {
+  color: #e73959;
+  margin-right: 10px;
+}
+.paragraph {
+  margin-right: 6px;
+}
+@media screen and (min-width: 767px) {
+  .bg-item {
+    background-color: #f8f8ff;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .avatar {
+    height: 190px;
+  }
+}

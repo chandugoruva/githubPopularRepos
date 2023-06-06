@@ -1,0 +1,13 @@
+.button {
+  background-color: transparent;
+  border-width: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.clicked-button {
+  border: #0284c7 2px solid;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #0284c7;
+}
